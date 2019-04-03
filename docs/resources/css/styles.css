@@ -75,7 +75,7 @@ header{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  /* height: 100vh; */
+  height: 100vh;
   /* width: 100vw; */
 }
 .profile{
@@ -83,6 +83,12 @@ header{
   text-align: center;
   /* display: inline-block; */
   /* position: relative; */
+}
+.hb{
+  object-fit: fill;
+}
+.mobile{
+  display: none;
 }
 /* header{
   margin-bottom: 500px;

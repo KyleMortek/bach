@@ -2,17 +2,35 @@
 
   header {
     /* 366052 background color*/
-
+    /* position: absolute; */
     background-position: top;
     /* background-size: contain; */
     /* background-color:unset;  */
-    /* height: 60vw; */
+    /* width:100vw; */
+    height: 80vw;
+    background-size: 150%;
+
     /* height:fit-content; */
     /* max-width: 100%; */
     /* height: auto; */
     /* width: auto\9; ie8 */
   }
-  .profile{
+
+  .profile {
     /* height: 60vw; */
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .hb2 {
+    display: none;
+  }
+  .mobile{
+    display: block;
+    height: 60vw;
+    width: 100vw;
+    text-align: center;
   }
 }
