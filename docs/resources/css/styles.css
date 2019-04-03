@@ -1,0 +1,262 @@
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  /* letter-spacing: 1px; */
+}
+html{
+  color: white;
+}
+p{
+  color: #ffffff;
+}
+.center{
+  text-align: center;
+}
+h2{
+  color:#ffffff;
+  /* width: 300px; */
+  text-align: center;
+  font-size: 180%;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  /* border-bottom: 2px solid #ffffff; */
+}
+h2:after {
+  display: block;
+  height: 3px;
+  background-color: #ffffffd7;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+}
+.contest-stats{
+  color: #ffffff;
+  /* text-align: center; */
+}
+.main-nav {
+  /* position: absolute; */
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin-right: 50px;
+  margin-top: 45px;
+  padding-bottom: 15px;
+  padding-left: 0px;
+}
+.main-nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2;
+  -webkit-transition: border-bottom 1s;
+  transition: border-bottom 1s;
+
+}
+/* ####################### */
+/* ######## HEADER ####### */
+/* ####################### */
+header{
+  background-image: -webkit-linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(img/rosewall.jpg);
+  background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(img/rosewall.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+.profile{
+  padding: 10%;
+  text-align: center;
+  display: inline-block;
+
+}
+/* header{
+  margin-bottom: 500px;
+  border-bottom: 3px solid rgb(255, 255, 255);
+} */
+
+
+/* ####################### */
+/* ###### SECTIONS ####### */
+/* ####################### */
+.contest-name{
+  color:white;
+}
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+.m{
+  margin-left: 3.5px;
+}
+.icon{
+  background-image: url('img/favicon-32x32.png');
+  background-size: 100%;
+  /* font-size: 20%; */
+  /* width: auto; */
+  /* height: auto; */
+  /* padding: 5%; */
+  margin-left: 3.5px;
+  border: 10px;
+  background-repeat: no-repeat;
+  display: block;
+}
+.contest-stats img{
+  line-height: 10%;
+  margin-left: 3.5px;
+}
+.box {
+  padding: 0%
+}
+
+.section {
+  padding: 80px;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+section{
+  background-color: #000000;
+
+}
+.section-contestants{
+  background-color: #000000
+}
+.section-eliminated{
+  
+}
+/* ####################### */
+/* ##### CONTESTANTS ##### */
+/* ####################### */
+
+.contestants{
+  /* MODIFY SHAPE AND LOOK OF PICTURES */
+  /* display: inline-block; */
+  /* width: 100%; */
+  text-align: center;
+}
+
+
+
+/* ####################### */
+/* ##### Amazon links #### */
+/* ####################### */
+
+.ama{
+  text-align: center;
+  /* width: center; */
+}
+
+
+
+
+
+
+/* ------------------ */
+/* footer */
+/* ------------------ */
+footer{
+  padding: 50px;
+  background-color: #25232F;
+}
+.footer-nav{
+  list-style: none;
+  float:left;
+}
+.social-links{
+  list-style: none;
+  float: right;
+}
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+  /* list-style: none; */
+  /* float: right; */
+  /* margin-top: 10px; */
+  /* margin-right: 10px; */
+  /* text-align: center; */
+  
+}
+.footer-nav li:last-child,
+.social-links li:last-child
+{
+  margin-right: 0;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+  text-decoration: none;
+  border: 0;
+  /* color: #888 */
+  -webkit-transition:color 0.2;
+  transition:color 0.2;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+  color: #ddd;
+  
+}
+footer p{
+  color: #888;
+  text-align: center;
+  font-size: 90%;
+}
+.social-links li a:link,
+.social-links li a:visited{
+  font-size: 180%;
+}
+#facebook:hover{
+  color:rgb(32, 4, 245);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#insta:hover{
+  color: rgb(247, 7, 175);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+
+}
+#pinterest:hover{
+  color: red;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+
+}
+#bitcoin:hover{
+  color:gold;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+
+}
+#twitter:hover{
+  color:rgb(0, 128, 255);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
